@@ -6,10 +6,27 @@ namespace DesignPatterns1
     {
         static void Main(string[] args)
         {
+            /*
             Duck donald = new MallardDuck();
             donald.performFly(); // “flap flap”
             donald.setFlyBehaviour(new FlyWithRocket());
             donald.performFly(); // “Zoooom!”
+            */
+            ToyMachine tm = new ToyMachine(5);
+            tm.insertCoin();
+            tm.ejectCoin();
+            tm.insertCoin();
+            tm.turnCrank();
+            tm.insertCoin();
+            tm.turnCrank();
+            tm.insertCoin();
+            tm.turnCrank();
+            tm.insertCoin();
+            tm.turnCrank();
+            tm.insertCoin();
+            tm.turnCrank();
+            tm.insertCoin();
+            tm.turnCrank();
 
         }
     }
